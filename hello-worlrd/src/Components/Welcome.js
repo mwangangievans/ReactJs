@@ -2,7 +2,8 @@ import React , {Component} from "react";
 
 class welcome  extends Component{
     render(){
-        return <p>hello Mwangangi this is a class based component</p>
+        console.log("props in class based",this.props);
+        return <p>{this.props.name}</p>
     }
 
 }

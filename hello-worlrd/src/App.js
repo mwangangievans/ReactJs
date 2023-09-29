@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="App">
      <Greet name="Mwangangi">
-      <p>this are children props</p>
+      <p>this are children</p>
       </Greet>
      <Greet name="Muinde"/>
      <Greet name="Evans"/>
 
-     {/* <Welcome/>
-     <Hello/>
-      */}
+     <Welcome name="Mwangangi from class based props"/>
+     {/* <Hello/> */}
+     
     </div>
   );
 }
