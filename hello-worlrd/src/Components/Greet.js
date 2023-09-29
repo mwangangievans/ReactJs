@@ -6,8 +6,14 @@ import React from "react";
 
 // arrow syntax
 
- const Greet = () => {
-    return <p>Hello Mwangangi 2</p>
+const Greet = (props) => {
+    console.log(props);
+    return (
+        <div>
+            <p>Hello {props.name}</p>
+            {props.children}
+        </div>
+    )
 }
 
 
