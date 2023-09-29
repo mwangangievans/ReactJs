@@ -4,11 +4,13 @@ import Greet from './Components/Greet'
 import Welcome from './Components/Welcome';
 import Hello from './Components/hello';
 import Message from './Components/message';
+import Counter from './Components/Counter';
 
 function App() {
   return (
     <div className="App">
-            <Message />
+      <Counter/>
+            {/* <Message /> */}
       {/* <Greet name="Mwangangi">
         <p>this are children</p>
       </Greet>
